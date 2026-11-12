@@ -33,10 +33,10 @@ Sou **Analista Funcional** em produtos digitais de **banca, seguros e saúde**. 
 
 <br/>
 
-| | |
-|:--:|:--:|
-| **4+** anos | **5** empresas |
-| **4** certificações | **∞** user stories |
+<table>
+<tr><td align="center"><h2>4+</h2><sub>anos de experiência</sub></td><td align="center"><h2>5</h2><sub>empresas</sub></td></tr>
+<tr><td align="center"><h2>4</h2><sub>certificações</sub></td><td align="center"><h2>∞</h2><sub>user stories</sub></td></tr>
+</table>
 
 </td>
 </tr>
@@ -58,12 +58,12 @@ Sou **Analista Funcional** em produtos digitais de **banca, seguros e saúde**. 
 
 ```mermaid
 flowchart LR
-    A([🔍 Discovery]) --> B[🔀 Processo<br/>BPMN · Camunda]
-    B --> C[📋 Requisitos<br/>& Regras]
-    C --> D[🎨 UI/UX<br/>& Protótipo]
-    D --> E[💻 Desenvolvimento]
-    E --> F{{🧪 QA & UAT}}
-    F -- melhoria contínua --> A
+    A([🔍 Discovery]) --> B[🔀 BPMN · Camunda]
+    B --> C[📋 Requisitos]
+    C --> D[🎨 UI/UX]
+    D --> E[💻 Dev]
+    E --> F([🧪 QA & UAT])
+    F -. melhoria contínua .-> A
 
     style A fill:#0F172A,stroke:#FC5D0D,color:#fff
     style B fill:#1E3A8A,stroke:#1E3A8A,color:#fff
